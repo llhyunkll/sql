@@ -175,7 +175,7 @@ FROM emp
 WHERE hiredate >= TO_DATE('1982/01/01', 'YYYY/MM/DD'); 
 
 SELECT * 
-FROM NLS_SESSION_PARAMETERS ; 
+FROM NLS_SESS
 
 
 BETWEEN AND : 두 값 사이에 위치한 값을 참으로 인식
